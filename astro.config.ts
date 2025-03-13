@@ -9,5 +9,5 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   output: "static",
   integrations: [qwikdev()],
-  adapter: netlify(),
+  adapter: vercel(),
 });
